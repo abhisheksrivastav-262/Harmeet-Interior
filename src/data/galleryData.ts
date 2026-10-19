@@ -1,7 +1,7 @@
 export interface GalleryItem {
   id: string;
   title: string;
-  category: "Kitchens" | "Wardrobes" | "Bedrooms" | "Living & Walls" | "Vanities & Baths" | "Commercial & Carpentry";
+  category: "Kitchens" | "Wardrobes" | "Bedrooms" | "Living & Walls" | "Vanities & Baths" | "Commercial & Carpentry" | "Additional Works";
   image: string;
   dimensions: string;
   aspect: "portrait" | "landscape" | "square";
@@ -252,11 +252,11 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
     aspect: "portrait",
     description: "Plush vertical ribbed velvet fabric backrest, deep storage platform on wooden laminate flooring, and adjoining wardrobe woodwork.",
   },
-  ,
+
   {
     id: "work-28",
     title: "Additional Work 1",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -265,7 +265,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-29",
     title: "Additional Work 2",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -274,7 +274,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-30",
     title: "Additional Work 3",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 2.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -283,7 +283,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-31",
     title: "Additional Work 4",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 3.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -292,7 +292,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-32",
     title: "Additional Work 5",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 4.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -301,7 +301,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-33",
     title: "Additional Work 6",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 5.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -310,7 +310,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-34",
     title: "Additional Work 7",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 6.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -319,7 +319,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-35",
     title: "Additional Work 8",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 7.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -328,7 +328,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-36",
     title: "Additional Work 9",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 8.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -337,7 +337,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-37",
     title: "Additional Work 10",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 9.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -346,7 +346,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-38",
     title: "Additional Work 11",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 10.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -355,7 +355,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-39",
     title: "Additional Work 12",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 11.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -364,7 +364,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-40",
     title: "Additional Work 13",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 12.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -373,7 +373,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-41",
     title: "Additional Work 14",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 13.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -382,7 +382,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-42",
     title: "Additional Work 15",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 14.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -391,7 +391,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-43",
     title: "Additional Work 16",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 15.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -400,7 +400,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-44",
     title: "Additional Work 17",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 16.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -409,7 +409,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-45",
     title: "Additional Work 18",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 17.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -418,7 +418,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-46",
     title: "Additional Work 19",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 18.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -427,7 +427,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-47",
     title: "Additional Work 20",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 19.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -436,7 +436,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-48",
     title: "Additional Work 21",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 20.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -445,7 +445,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-49",
     title: "Additional Work 22",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 21.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -454,7 +454,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-50",
     title: "Additional Work 23",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 22.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -463,7 +463,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-51",
     title: "Additional Work 24",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 23.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -472,7 +472,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-52",
     title: "Additional Work 25",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 24.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -481,7 +481,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-53",
     title: "Additional Work 26",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 25.png",
     dimensions: "auto",
     aspect: "landscape",
@@ -490,7 +490,7 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
   {
     id: "work-54",
     title: "Additional Work 27",
-    category: "Additional Works",
+    category: "Living & Walls",
     image: "/image copy 26.png",
     dimensions: "auto",
     aspect: "landscape",
