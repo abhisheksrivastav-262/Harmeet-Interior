@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
+@theme {
+  --color-navy-dark: #0B1D3A;
+  --color-navy-primary: #173D78;
+  --color-gold: #E9C94A;
+  --color-gold-light: #F6DC79;
+  --color-warm-white: #FAF9F6;
+  --color-charcoal: #22252B;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --navy-dark: #0B1D3A;
+  --navy-primary: #173D78;
+  --gold: #E9C94A;
+  --gold-light: #F6DC79;
+  --warm-white: #FAF9F6;
+  --charcoal: #22252B;
+  --muted-gray: #777D87;
+  --border-subtle: #E2E8F0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FAF9F6;
+  color: #22252B;
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #ECC94B 0%, #D69E2E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #ECC94B 0%, #D69E2E 100%);
+}
+
+.navy-gradient {
+  background: linear-gradient(180deg, #0B1D3A 0%, #173D78 100%);
+}
+
+.luxury-card-shadow {
+  box-shadow: 0 10px 30px -10px rgba(11, 29, 58, 0.08), 0 4px 6px -2px rgba(11, 29, 58, 0.03);
+}
+
+.luxury-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(11, 29, 58, 0.15);
 }
