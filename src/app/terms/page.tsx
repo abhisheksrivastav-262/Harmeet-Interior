@@ -5,8 +5,8 @@ import { FileCheck, AlertCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/data/siteData";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Harmeet Interior Delhi",
-  description: "Terms and conditions governing estimates, site visits, indicative pricing, and interior contracting services provided by Harmeet Interior.",
+  title: "Terms & Conditions | Meet Interior Delhi NCR",
+  description: "Terms and conditions governing estimates, site visits, indicative pricing, and interior contracting services provided by Meet Interior.",
 };
 
 export default function TermsPage() {
@@ -22,7 +22,7 @@ export default function TermsPage() {
             Terms &amp; Conditions
           </h1>
           <p className="text-xs sm:text-sm text-slate-300">
-            Governing estimates, site surveys, and contracting works by Harmeet Interior, New Delhi
+            Governing estimates, site surveys, and contracting works by Meet Interior, New Delhi
           </p>
         </div>
       </section>

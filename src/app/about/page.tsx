@@ -16,8 +16,8 @@ import { BUSINESS_INFO } from "@/data/siteData";
 import CtaBanner from "@/components/CtaBanner";
 
 export const metadata: Metadata = {
-  title: "About Us | Harmeet Interior Kirti Nagar Delhi",
-  description: "Learn about Harmeet Interior, a dedicated interior design studio and turnkey contractor in Kirti Nagar, New Delhi focusing on quality workmanship and thoughtful planning.",
+  title: "About Us | Meet Interior Kirti Nagar Delhi NCR",
+  description: "Learn about Meet Interior, a dedicated interior design studio and turnkey contractor in Kirti Nagar, New Delhi focusing on quality workmanship and thoughtful planning.",
 };
 
 export default function AboutPage() {
@@ -50,7 +50,7 @@ export default function AboutPage() {
             <span>Studio Heritage &bull; Kirti Nagar, Delhi</span>
           </div>
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white">
-            About Harmeet Interior
+            About Meet Interior
           </h1>
           <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
             A dedicated interior design and contracting studio crafting bespoke residential and commercial spaces with architectural discipline.
@@ -69,7 +69,7 @@ export default function AboutPage() {
               Bridging Refined Design with Flawless Contractor Execution
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed">
-              Based in the renowned Timber Block of Kirti Nagar, New Delhi, Harmeet Interior was created to solve one of the greatest challenges homeowners face: the disconnect between visual design concepts and actual on-site craftsmanship.
+              Based in the renowned Timber Block of Kirti Nagar, New Delhi, Meet Interior was created to solve one of the greatest challenges homeowners face: the disconnect between visual design concepts and actual on-site craftsmanship.
             </p>
             <p className="text-sm text-slate-600 leading-relaxed">
               We operate as both interior designers and licensed interior contractors. This unified approach ensures that what is conceptualized on paper is executed precisely on site—from concealed electrical conduits and plumbing slopes to seamless acrylic modular shutters and acoustic false ceilings.
@@ -92,10 +92,10 @@ export default function AboutPage() {
           </div>
 
           <div className="relative">
-            <div className="relative h-96 sm:h-[460px] w-full rounded-2xl overflow-hidden shadow-2xl bg-slate-900">
+            <div className="relative h-96 sm:h-[460px] w-full rounded-2xl overflow-hidden shadow-2xl bg-slate-900 border border-slate-200">
               <Image
-                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop"
-                alt="Harmeet Interior architectural interior approach"
+                src="/projects/work-11.png"
+                alt="Meet Interior architectural interior craftsmanship"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"

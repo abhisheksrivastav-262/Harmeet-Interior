@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { SERVICES, PROJECTS } from "@/data/siteData";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://harmeetinterior.com";
+  const baseUrl = "https://meetinterior.com";
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
@@ -19,6 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/services`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/gallery`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,

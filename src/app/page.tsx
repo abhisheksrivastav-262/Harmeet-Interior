@@ -57,7 +57,7 @@ export default function HomePage() {
   const whyChooseUsPoints = [
     {
       title: "Direct Contractor Supervision",
-      desc: "No middlemen or unaccountable sub-vendors. Harmeet Interior's core leadership oversees your Delhi site personally from start to finish."
+      desc: "No middlemen or unaccountable sub-vendors. Meet Interior's core leadership oversees your Delhi site personally from start to finish."
     },
     {
       title: "Transparent Indicative Pricing",
@@ -75,7 +75,7 @@ export default function HomePage() {
 
   const faqs = [
     {
-      q: "Where is Harmeet Interior located and which areas do you serve?",
+      q: "Where is Meet Interior located and which areas do you serve?",
       a: "Our office and workshop are located at A-52, W.H.-5, Timber Block, Kirti Nagar, New Delhi. We actively undertake interior design and turnkey renovation projects throughout Delhi and surrounding NCR regions."
     },
     {
@@ -99,15 +99,15 @@ export default function HomePage() {
         {/* Hero Background Image with Dark Vignette */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2000&auto=format&fit=crop"
-            alt="Luxury Modern Indian Home Interior by Harmeet Interior"
+            src="/projects/work-13.png"
+            alt="Luxury Modern Modular Interior by Meet Interior Delhi NCR"
             fill
             priority
             sizes="100vw"
-            className="object-cover object-center opacity-40 scale-105"
+            className="object-cover object-center opacity-35 scale-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1D3A] via-[#0B1D3A]/85 to-transparent"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0B1D3A] via-transparent to-black/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1D3A] via-[#0B1D3A]/90 to-[#0B1D3A]/60"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0B1D3A] via-transparent to-black/50"></div>
         </div>
 
         {/* Content Container */}
@@ -277,10 +277,10 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Visual Collage */}
             <div className="relative">
-              <div className="relative h-96 sm:h-[480px] w-full rounded-2xl overflow-hidden shadow-2xl bg-slate-900">
+              <div className="relative h-96 sm:h-[480px] w-full rounded-2xl overflow-hidden shadow-2xl bg-slate-900 border border-slate-200">
                 <Image
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop"
-                  alt="Harmeet Interior craftsmanship in Delhi"
+                  src="/projects/work-04.png"
+                  alt="Meet Interior bespoke craftsmanship in Delhi NCR"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -299,13 +299,13 @@ export default function HomePage() {
             {/* Text description */}
             <div className="space-y-6">
               <span className="text-xs font-bold uppercase tracking-widest text-[#173D78]">
-                About Harmeet Interior
+                About Meet Interior
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0B1D3A] leading-snug">
                 Where Functional Engineering Meets Refined Aesthetics
               </h2>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Operating out of Kirti Nagar, Harmeet Interior bridges the gap between high-concept interior design and reliable on-site contractor execution. We focus on durable, practical living spaces built with marine-grade materials, precision hardware, and timeless finishes.
+                Operating out of Kirti Nagar, Meet Interior bridges the gap between high-concept interior design and reliable on-site contractor execution. We focus on durable, practical living spaces built with marine-grade materials, precision hardware, and timeless finishes.
               </p>
               <p className="text-sm text-slate-600 leading-relaxed">
                 Whether you require a modern acrylic modular kitchen, space-maximizing sliding almirahs, or a complete turnkey renovation of your 2BHK/3BHK flat in Delhi NCR, we manage every detail with direct accountability.
@@ -350,12 +350,15 @@ export default function HomePage() {
               Representative examples of modular kitchens, master bedrooms, ceiling schemes, and commercial studios executed with precision.
             </p>
           </div>
-          <Link
-            href="/projects"
-            className="px-6 py-3 bg-white border border-slate-300 hover:border-[#0B1D3A] text-slate-800 font-semibold text-xs uppercase tracking-wider rounded self-start md:self-auto transition-colors"
-          >
-            View Complete Gallery &rarr;
-          </Link>
+          <div className="flex items-center gap-3">
+            <Link
+              href="/gallery"
+              className="px-6 py-3 bg-[#E9C94A] hover:bg-[#d8b839] text-[#0B1D3A] font-bold text-xs uppercase tracking-wider rounded-lg shadow-md transition-all flex items-center gap-2"
+            >
+              <span>Explore All 27 Works Gallery</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
         </div>
 
         <ProjectGallery projects={PROJECTS.slice(0, 6)} showFilter={false} />
@@ -405,14 +408,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. WHY CHOOSE HARMEET INTERIOR */}
+      {/* 6. WHY CHOOSE MEET INTERIOR */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
           <span className="text-xs font-bold uppercase tracking-widest text-[#173D78]">
             Quality &bull; Reliability &bull; Transparency
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0B1D3A]">
-            Why Delhi Homeowners Choose Harmeet Interior
+            Why Delhi Homeowners Choose Meet Interior
           </h2>
         </div>
 

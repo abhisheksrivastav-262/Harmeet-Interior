@@ -37,6 +37,7 @@ export default function Navbar() {
     { label: "Home", href: "/" },
     { label: "About Us", href: "/about" },
     { label: "Services", href: "/services", hasDropdown: true },
+    { label: "Gallery", href: "/gallery" },
     { label: "Projects", href: "/projects" },
     { label: "Pricing", href: "/pricing" },
     { label: "FAQ", href: "/faq" },
@@ -76,7 +77,7 @@ export default function Navbar() {
         className={`sticky top-0 z-50 transition-all duration-300 ${
           isScrolled
             ? "bg-[#0B1D3A]/95 backdrop-blur-md shadow-lg border-b border-white/10 py-3.5"
-            : "bg-[#0B1D3A] py-5 border-b border-white/5"
+            : "bg-[#0B1D3A] py-4 border-b border-white/5"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
@@ -84,20 +85,20 @@ export default function Navbar() {
           <Link href="/" className="group flex items-center gap-3">
             <div className="relative h-11 w-11 sm:h-12 sm:w-12 rounded-lg bg-white p-1.5 shadow-md border border-[#E9C94A]/30 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
               <Image
-                src="/a.png"
-                alt="Harmeet Interior Logo"
+                src="/m.png"
+                alt="Meet Interior Logo"
                 fill
                 sizes="48px"
-                className="object-contain p-1"
+                className="object-contain p-0.5"
                 priority
               />
             </div>
             <div>
               <span className="font-serif text-xl sm:text-2xl font-bold tracking-wider text-white block uppercase leading-none">
-                Harmeet <span className="text-[#E9C94A]">Interior</span>
+                Meet <span className="text-[#E9C94A]">Interior</span>
               </span>
               <span className="text-[10px] sm:text-[11px] text-slate-300 tracking-widest uppercase block mt-1">
-                Kirti Nagar, Delhi
+                Kirti Nagar, Delhi NCR
               </span>
             </div>
           </Link>

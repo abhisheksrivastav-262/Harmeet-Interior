@@ -15,13 +15,13 @@ import { BUSINESS_INFO } from "@/data/siteData";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us & Book Free Site Visit | Harmeet Interior Delhi",
-  description: "Contact Harmeet Interior in Kirti Nagar, New Delhi. Call +91 9990327474 or +91 9911213974. Schedule a free site measurement and consultation.",
+  title: "Contact Us & Book Free Site Visit | Meet Interior Delhi NCR",
+  description: "Contact Meet Interior in Kirti Nagar, New Delhi. Call +91 9990327474 or +91 9911213974. Schedule a free site measurement and consultation.",
 };
 
 export default function ContactPage() {
   const whatsappUrl = `https://wa.me/919990327474?text=${encodeURIComponent(
-    "Hello Harmeet Interior, I would like to schedule a consultation/site visit for my property in Delhi."
+    "Hello Meet Interior, I would like to schedule a consultation/site visit for my property in Delhi."
   )}`;
 
   return (
@@ -34,7 +34,7 @@ export default function ContactPage() {
             <span>Connect with our studio</span>
           </div>
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white">
-            Contact Harmeet Interior
+            Contact Meet Interior
           </h1>
           <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
             Have a residential or commercial interior project in Delhi NCR? We are here to help you plan, estimate, and execute.

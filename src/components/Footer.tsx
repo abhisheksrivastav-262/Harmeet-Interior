@@ -17,19 +17,19 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <div className="relative h-12 w-12 rounded-lg bg-white p-1.5 shadow-md border border-[#E9C94A]/30 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                   <Image
-                    src="/a.png"
-                    alt="Harmeet Interior Logo"
+                    src="/m.png"
+                    alt="Meet Interior Logo"
                     fill
                     sizes="48px"
-                    className="object-contain p-1"
+                    className="object-contain p-0.5"
                   />
                 </div>
                 <div>
                   <span className="font-serif text-2xl font-bold tracking-wider text-white block uppercase leading-none">
-                    Harmeet <span className="text-[#E9C94A]">Interior</span>
+                    Meet <span className="text-[#E9C94A]">Interior</span>
                   </span>
                   <span className="text-[10px] text-slate-400 tracking-widest uppercase block mt-1">
-                    Kirti Nagar, New Delhi
+                    Kirti Nagar, Delhi NCR
                   </span>
                 </div>
               </div>
@@ -82,10 +82,13 @@ export default function Footer() {
                 <Link href="/" className="hover:text-[#E9C94A] transition-colors">Flagship Studio Home</Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-[#E9C94A] transition-colors">About Harmeet Interior</Link>
+                <Link href="/about" className="hover:text-[#E9C94A] transition-colors">About Meet Interior</Link>
               </li>
               <li>
-                <Link href="/projects" className="hover:text-[#E9C94A] transition-colors">Completed Work &amp; Gallery</Link>
+                <Link href="/gallery" className="hover:text-[#E9C94A] transition-colors font-semibold text-[#E9C94A]">Full Project Gallery (27 Real Works)</Link>
+              </li>
+              <li>
+                <Link href="/projects" className="hover:text-[#E9C94A] transition-colors">Featured Projects</Link>
               </li>
               <li>
                 <Link href="/pricing" className="hover:text-[#E9C94A] transition-colors">Transparent Starting Rates</Link>

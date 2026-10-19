@@ -21,9 +21,9 @@ export const SERVICES: Service[] = [
     tagline: "Precision engineered culinary spaces for modern Indian homes",
     startingPrice: "₹1,199",
     priceNote: "per sq. ft. *Indicative starting price, subject to site inspection, layout, hardware & final material selection.",
-    image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
+    image: "/projects/work-14.png",
     shortDesc: "Bespoke L-shape, U-shape, parallel, and island layouts with German-grade soft-close hardware, acrylic, and PU finishes.",
-    fullDesc: "At Harmeet Interior, our modular kitchens combine ergonomic functionality with timeless aesthetics. Built for the rigorous demands of everyday Indian cooking, we utilize waterproof BWP marine-grade ply, high-durability acrylic & PU finishes, and premium fittings from leading global hardware brands.",
+    fullDesc: "At Meet Interior, our modular kitchens combine ergonomic functionality with timeless aesthetics. Built for the rigorous demands of everyday Indian cooking, we utilize waterproof BWP marine-grade ply, high-durability acrylic & PU finishes, and premium fittings from leading global hardware brands.",
     features: [
       "Custom layouts: L-Shaped, U-Shaped, Parallel & Straight with breakfast counters",
       "Cabinet finishes: High-gloss Acrylic, Matte PU Lacquer, Laminate, and Textured Glass",
@@ -37,7 +37,7 @@ export const SERVICES: Service[] = [
       { title: "Hardware Options", detail: "Soft-close telescopic channels, hydraulic lift-ups, stainless steel baskets" },
       { title: "Starting Indicative Rate", detail: "₹1,199 / sq. ft." }
     ],
-    whatsappMessage: "Hello Harmeet Interior, I would like to enquire about modular kitchen design. Please share details and the quotation process."
+    whatsappMessage: "Hello Meet Interior, I would like to enquire about modular kitchen design. Please share details and the quotation process."
   },
   {
     id: "wardrobes",
@@ -46,9 +46,9 @@ export const SERVICES: Service[] = [
     tagline: "Custom storage solutions harmonized with your bedroom architecture",
     startingPrice: "₹1,099",
     priceNote: "per sq. ft. *Indicative starting price, subject to dimensions, internal accessories & choice of shutter finish.",
-    image: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1200&auto=format&fit=crop",
+    image: "/projects/work-04.png",
     shortDesc: "Floor-to-ceiling sliding, hinged, and luxurious walk-in wardrobes tailored with Sunmica, acrylic, PU polish, and tinted glass.",
-    fullDesc: "Transform bedroom storage into an architectural statement. Harmeet Interior specializes in custom-fitted wardrobes maximizing every inch of vertical height. From space-saving sliding wardrobes to floor-to-ceiling hinged almirahs and walk-in dressing suites, each piece is engineered for daily ease and elegance.",
+    fullDesc: "Transform bedroom storage into an architectural statement. Meet Interior specializes in custom-fitted wardrobes maximizing every inch of vertical height. From space-saving sliding wardrobes to floor-to-ceiling hinged almirahs and walk-in dressing suites, each piece is engineered for daily ease and elegance.",
     features: [
       "Configurations: Sliding door wardrobes, Floor-to-ceiling hinged almirahs, and Walk-in closets",
       "Finish Options: High-grade Sunmica laminates, Gloss acrylic, PU polish, and Fluted glass",
@@ -61,7 +61,7 @@ export const SERVICES: Service[] = [
       { title: "Internal Lighting", detail: "Integrated automatic sensor LED profile lights" },
       { title: "Starting Indicative Rate", detail: "₹1,099 / sq. ft." }
     ],
-    whatsappMessage: "Hello Harmeet Interior, I would like to enquire about custom wardrobe & almirah design. Please share details and the quotation process."
+    whatsappMessage: "Hello Meet Interior, I would like to enquire about custom wardrobe & almirah design. Please share details and the quotation process."
   },
   {
     id: "false-ceiling",
@@ -70,7 +70,7 @@ export const SERVICES: Service[] = [
     tagline: "Sculptural ceiling architecture with integrated architectural illumination",
     startingPrice: "₹100",
     priceNote: "per sq. ft. *Indicative starting price for standard POP/Gypsum channel work. Lighting fixtures and profile strips quoted separately.",
-    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop",
+    image: "/projects/work-20.png",
     shortDesc: "Modern Gypsum & POP ceiling designs with warm cove lighting, linear magnetic profile lights, and acoustic insulation.",
     fullDesc: "Ceilings define the spatial depth and mood of any luxury room. We design seamless false ceiling concepts utilizing genuine Gyproc/Saint-Gobain gypsum boards, galvanized metal frameworks, and indirect cove illumination to create airy, inviting atmospheres.",
     features: [
@@ -85,16 +85,16 @@ export const SERVICES: Service[] = [
       { title: "Light Provision", detail: "Pre-cut channels for COB spotlights, coves & profile strips" },
       { title: "Starting Indicative Rate", detail: "₹100 / sq. ft." }
     ],
-    whatsappMessage: "Hello Harmeet Interior, I would like to enquire about false ceiling & lighting solutions. Please share details and the quotation process."
+    whatsappMessage: "Hello Meet Interior, I would like to enquire about false ceiling & lighting solutions. Please share details and the quotation process."
   },
   {
     id: "wall-panelling",
     slug: "wall-panelling",
     title: "Wall Panelling & Decoration",
     tagline: "Texture, depth, and bespoke wall finishes that elevate your living rooms",
-    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
-    shortDesc: "Fluted charcoal louvers, acoustic WPC panels, leatherette panelling, gold metallic inlays, and textured luxury wallpapers.",
-    fullDesc: "Add tactile elegance to accent walls, TV consoles, and bed backdrops. We craft custom wall cladding using contemporary materials like charcoal louvers, moisture-resistant WPC panels, PU-lacquered fluted wood, and metallic trim inlays.",
+    image: "/projects/work-02.png",
+    shortDesc: "Fluted charcoal louvers, acoustic WPC panels, gold metallic inlays, wainscoting mouldings, and luxury wallpapers.",
+    fullDesc: "Add tactile elegance to accent walls, TV consoles, and bed backdrops. Meet Interior crafts custom wall cladding using contemporary materials like charcoal louvers, moisture-resistant WPC panels, PU-lacquered fluted wood, and gold trim inlays.",
     features: [
       "WPC & PVC fluted louvers for living room TV backdrops",
       "Acoustic fabric and cushioned leatherette panelling for master bedrooms",
@@ -107,16 +107,16 @@ export const SERVICES: Service[] = [
       { title: "Maintenance", detail: "Easy-wipe, moisture-resistant and termite-proof surfaces" },
       { title: "Pricing", detail: "Custom quote based on wall dimensions and material selection" }
     ],
-    whatsappMessage: "Hello Harmeet Interior, I would like to enquire about wall panelling and accent wall decoration. Please share details and catalogue."
+    whatsappMessage: "Hello Meet Interior, I would like to enquire about wall panelling and accent wall decoration. Please share details and catalogue."
   },
   {
     id: "electrical-lighting",
     slug: "electrical-lighting",
     title: "Electrical & Lighting",
     tagline: "Safe, concealed, high-efficiency wiring and mood lighting curation",
-    image: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=1200&auto=format&fit=crop",
-    shortDesc: "Complete electrical revamping, smart modular switches (Anchor, Roma, Polycab options), chandeliers, and architectural LED layouts.",
-    fullDesc: "A well-designed home demands intelligent electrical planning. Harmeet Interior handles full electrical rewiring, MCB load balancing, concealed conduit laying, and high-end lighting installations featuring reputable switchgear options like Anchor, Roma, and Polycab.",
+    image: "/projects/work-18.png",
+    shortDesc: "Complete electrical revamping, smart modular switches (Anchor, Roma, Polycab options), portal spotlights, and architectural LED layouts.",
+    fullDesc: "A well-designed home demands intelligent electrical planning. Meet Interior handles full electrical rewiring, MCB load balancing, concealed conduit laying, and high-end lighting installations featuring reputable switchgear options like Anchor, Roma, and Polycab.",
     features: [
       "Concealed FRLS copper wiring for maximum household fire safety",
       "Switchgear integration featuring modular plate options (Anchor Roma, Polycab, or equivalent brands)",
@@ -129,16 +129,16 @@ export const SERVICES: Service[] = [
       { title: "Automation Ready", detail: "Smart Wi-Fi switch and automation compatible conduits" },
       { title: "Pricing", detail: "Detailed point-by-point quotation after electrical layout planning" }
     ],
-    whatsappMessage: "Hello Harmeet Interior, I would like to enquire about electrical wiring & lighting planning for my home. Please share details."
+    whatsappMessage: "Hello Meet Interior, I would like to enquire about electrical wiring & lighting planning for my home. Please share details."
   },
   {
     id: "bathroom-tiles",
     slug: "bathroom-tiles",
     title: "Bathroom & Tiles",
     tagline: "Spa-inspired bathroom transformations with precision plumbing and waterproofing",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
-    shortDesc: "Complete wet-area waterproofing, large-format anti-skid porcelain tiles, floating vanities, glass shower partitions, and CP fittings.",
-    fullDesc: "We convert ordinary bathrooms into personal wellness retreats. Our turnkey bathroom renovation includes robust multi-layer waterproofing, precision slope drainage, large slab tile cladding, concealed cisterns, and premium sanitary fittings.",
+    image: "/projects/work-01.png",
+    shortDesc: "Capsule LED mirrors, floating vanities, Moroccan feature tiles, complete waterproofing, and premium sanitary fittings.",
+    fullDesc: "We convert ordinary bathrooms into personal wellness retreats. Our turnkey bathroom renovation includes robust multi-layer waterproofing, precision slope drainage, large slab tile cladding, custom curved LED mirror consoles, and premium sanitary fittings.",
     features: [
       "3-layer chemical waterproofing to eliminate dampness and seepage permanently",
       "Large-format 4x2 ft and 6x4 ft vitrified wall and floor tiles with minimal grout joints",
@@ -151,16 +151,16 @@ export const SERVICES: Service[] = [
       { title: "Glass Partitions", detail: "10mm toughened glass with stainless steel 304 hardware" },
       { title: "Pricing", detail: "Turnkey bathroom packages quoted after site evaluation" }
     ],
-    whatsappMessage: "Hello Harmeet Interior, I would like to enquire about bathroom renovation and tile installation. Please share details."
+    whatsappMessage: "Hello Meet Interior, I would like to enquire about bathroom renovation and tile installation. Please share details."
   },
   {
     id: "flooring",
     slug: "flooring",
     title: "Flooring Solutions",
     tagline: "Foundations of luxury: Italian marble, vitrified tiles, and wooden floors",
-    image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?q=80&w=1200&auto=format&fit=crop",
-    shortDesc: "Flawless mirror-finish Italian marble laying, GVT vitrified tiles, herringbone wooden flooring, and granite stairs.",
-    fullDesc: "Flooring forms the fundamental canvas of your home interior. Harmeet Interior provides master tile layers and diamond polishers for Italian marble, granite, double-charged vitrified tiles, and cozy wooden laminated flooring.",
+    image: "/projects/work-27.png",
+    shortDesc: "Flawless wooden laminate laying, large-format vitrified tiles, Italian marble diamond polishing, and seamless floor transitions.",
+    fullDesc: "Flooring forms the fundamental canvas of your home interior. Meet Interior provides master tile layers and wood flooring technicians for Italian marble, granite, double-charged vitrified tiles, and warm wooden laminated flooring.",
     features: [
       "Italian marble installation with diamond polishes and epoxy joint filling",
       "Glazed Vitrified Tiles (GVT) in sizes 4x2 ft, 6x4 ft, and bookmatched designs",
@@ -173,16 +173,16 @@ export const SERVICES: Service[] = [
       { title: "Finishing", detail: "Mirror-finish diamond polishing & stain-resistant sealers" },
       { title: "Pricing", detail: "Based on square footage, stone type, and floor preparation requirements" }
     ],
-    whatsappMessage: "Hello Harmeet Interior, I would like to enquire about premium flooring options. Please share details and pricing guidance."
+    whatsappMessage: "Hello Meet Interior, I would like to enquire about premium flooring options. Please share details and pricing guidance."
   },
   {
     id: "home-interiors",
     slug: "home-interiors",
     title: "Complete Home Interiors",
     tagline: "End-to-end turnkey residential renovation across Delhi NCR",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    shortDesc: "Turnkey interior contracting for 1BHK, 2BHK, 3BHK, 4BHK apartments, independent kothis, and boutique retail spaces.",
-    fullDesc: "Harmeet Interior is your single-source turnkey contractor in Delhi. From civil modifications, plumbing, and electrical conduits to customized carpentry, modular setups, painting, and deep cleaning, we manage the entire project from blueprint to final key handover.",
+    image: "/projects/work-23.png",
+    shortDesc: "Turnkey interior contracting for 1BHK, 2BHK, 3BHK, 4BHK apartments, independent kothis, and boutique spaces.",
+    fullDesc: "Meet Interior is your single-source turnkey contractor in Delhi. From civil modifications, plumbing, and electrical conduits to customized carpentry, modular setups, painting, and deep cleaning, we manage the entire project from blueprint to final key handover.",
     features: [
       "Comprehensive Turnkey execution: Civil, Plumbing, Electrical, Carpentry & Finishing",
       "Dedicated site supervision in Delhi NCR ensuring timely phase-wise delivery",
@@ -195,7 +195,7 @@ export const SERVICES: Service[] = [
       { title: "Coverage Area", detail: "Delhi, Kirti Nagar, West Delhi, South Delhi & surrounding NCR" },
       { title: "Quotation", detail: "Free site measurement visit & comprehensive line-item estimate" }
     ],
-    whatsappMessage: "Hello Harmeet Interior, I would like to enquire about complete turnkey home interior renovation. Please guide me through the consultation process."
+    whatsappMessage: "Hello Meet Interior, I would like to enquire about complete turnkey home interior renovation. Please guide me through the consultation process."
   }
 ];
 
@@ -214,102 +214,107 @@ export interface ProjectItem {
 
 export const PROJECTS: ProjectItem[] = [
   {
-    id: "modern-minimalist-living",
+    id: "royal-fluted-accent-living",
     slug: "modern-minimalist-living",
-    title: "The Contemporary Living Suite",
+    title: "Classical Fluted & Gold Living Panelling",
     category: "Living Rooms",
     location: "Kirti Nagar, New Delhi",
-    scope: "Accent wall panelling, cove false ceiling, concealed electricals & custom credenza",
-    materials: ["Charcoal Louvers", "Saint-Gobain Gyproc", "Warm 3000K LED coves", "Vitrified large format flooring"],
-    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop",
+    scope: "Gold trim accent wall, wainscoting mouldings, ambient coves & custom furniture",
+    materials: ["PVD Gold Trims", "High-density Calibrated Mouldings", "Warm 3000K Lighting", "High-gloss Italian Tile Floor"],
+    image: "/projects/work-02.png",
     gallery: [
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop"
+      "/projects/work-02.png",
+      "/projects/work-26.png",
+      "/projects/work-18.png"
     ],
-    description: "A showcase modern living room designed with symmetrical fluted wall panels, indirect architectural lighting, and seamless floor finishes, exemplifying modern urban living in Delhi."
+    description: "An authentic on-site installation showcasing classical symmetrical wall mouldings with reflective gold inlay borders, transforming a Delhi living room into a stately luxury salon."
   },
   {
-    id: "bespoke-acrylic-modular-kitchen",
+    id: "bespoke-two-tone-modular-kitchen",
     slug: "bespoke-acrylic-modular-kitchen",
-    title: "High-Gloss Champagne Kitchen",
+    title: "Dual-Tone Acrylic Modular Kitchen",
     category: "Kitchens",
     location: "Punjabi Bagh, New Delhi",
-    scope: "Parallel modular kitchen with quartz countertop, soft-close hardware & chimney ducting",
-    materials: ["BWP Marine Ply", "Anti-scratch High Gloss Acrylic", "Kalinga Quartz Counter", "Soft-close Tandem Drawers"],
-    image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
+    scope: "Parallel modular kitchen with quartz countertop, soft-close hardware & crockery unit",
+    materials: ["BWP Marine Ply", "High-Gloss Acrylic Shutters", "Quartz Worktop", "Soft-close Tandem Boxes"],
+    image: "/projects/work-14.png",
     gallery: [
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1565183997392-2f6f122e5912?q=80&w=1200&auto=format&fit=crop"
+      "/projects/work-14.png",
+      "/projects/work-11.png",
+      "/projects/work-12.png",
+      "/projects/work-17.png"
     ],
-    description: "A dual-tone parallel kitchen built for intense culinary prep while maintaining immaculate visual order through concealed pantry pullouts and seamless acrylic shutters."
+    description: "Real site execution of a dual-tone parallel kitchen built for intense culinary prep while maintaining immaculate visual order through fluted glass crockery display and seamless acrylic drawers."
   },
   {
-    id: "master-bedroom-walkin-almirah",
+    id: "master-bedroom-emerald-wardrobe",
     slug: "master-bedroom-walkin-almirah",
-    title: "Smoked Glass & PU Master Wardrobe",
+    title: "Emerald Green & Walnut Wardrobe Suite",
     category: "Wardrobes",
     location: "Janakpuri, New Delhi",
-    scope: "Floor-to-ceiling wardrobe with integrated sensor profiles and vanity dressing unit",
-    materials: ["Calibrated HDHMR", "Smoked Fluted Glass", "Matte PU Paint", "Internal Velvet Jewelry Trays"],
-    image: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1200&auto=format&fit=crop",
+    scope: "Floor-to-ceiling modular wardrobe with classical panelling and walnut pullouts",
+    materials: ["Calibrated HDHMR", "Matte PU Emerald Paint", "Natural Walnut Finish", "Heavy-Duty Concealed Hinges"],
+    image: "/projects/work-04.png",
     gallery: [
-      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?q=80&w=1200&auto=format&fit=crop"
+      "/projects/work-04.png",
+      "/projects/work-06.png",
+      "/projects/work-22.png"
     ],
-    description: "A tailor-made wardrobe installation featuring floor-to-ceiling smoked glass doors, warm internal backlight sensors, and compartmentalized organizers for traditional and modern apparel."
+    description: "A tailor-made wardrobe installation featuring floor-to-ceiling emerald green shaker shutters, integrated lower storage drawers in rich walnut, and soft-close mechanisms."
   },
   {
     id: "sculptural-gypsum-cove-ceiling",
     slug: "sculptural-gypsum-cove-ceiling",
-    title: "Linear Profile & Cove False Ceiling",
+    title: "Square Profile & High-Gloss L-Kitchen",
     category: "Ceilings",
     location: "Rohini, New Delhi",
-    scope: "Recessed gypsum ceiling with magnetic track lights and acoustic perimeter",
-    materials: ["Saint-Gobain Gyproc 12.5mm", "Galvanized Perimeter Channels", "Magnetic LED Strips"],
-    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop",
+    scope: "Recessed gypsum ceiling with magnetic square profile lights and dual-tier glossy cabinetry",
+    materials: ["Saint-Gobain Gyproc 12.5mm", "Linear LED Profile Strips", "Black Quartz Surface", "Acrylic Shutters"],
+    image: "/projects/work-20.png",
     gallery: [
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop"
+      "/projects/work-20.png",
+      "/projects/work-09.png",
+      "/projects/work-08.png"
     ],
-    description: "An architectural ceiling scheme balancing low-glare magnetic linear profile lighting with mellow perimeter coves to make 10-foot ceilings feel expansive and calm."
+    description: "An architectural ceiling scheme balancing low-glare square linear profile lighting with high-gloss two-tier modular kitchen cabinetry for an expansive, luminous space."
   },
   {
     id: "serene-master-bedroom-sanctuary",
     slug: "serene-master-bedroom-sanctuary",
-    title: "Serene Master Bedroom Suite",
+    title: "Velvet Fluted Hydraulic Bed Suite",
     category: "Bedrooms",
     location: "Dwarka, New Delhi",
-    scope: "Wall panelling headboard, wooden flooring, false ceiling & concealed electricals",
-    materials: ["Acoustic Fabric Panelling", "Engineered Oak Flooring", "Concealed Reading Lights"],
-    image: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=1200&auto=format&fit=crop",
+    scope: "Vertical fluted velvet headboard, hydraulic lift bed base & wooden laminate flooring",
+    materials: ["Plush Velvet Upholstery", "Hydraulic Gas Lift", "Termite-Treated Plywood", "Laminate Wood Floors"],
+    image: "/projects/work-27.png",
     gallery: [
-      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1200&auto=format&fit=crop"
+      "/projects/work-27.png",
+      "/projects/work-25.png",
+      "/projects/work-21.png",
+      "/projects/work-05.png"
     ],
-    description: "A calming residential bedroom master retreat utilizing soft natural textures, warm wood planks, and subtle recessed lights for optimal rest and acoustic quietness."
+    description: "A calming residential bedroom master retreat utilizing soft vertical quilted velvet upholstery, spacious hidden hydraulic storage, and warm wood flooring."
   },
   {
-    id: "executive-studio-office",
+    id: "luxury-capsule-mirror-bath-vanity",
     slug: "executive-studio-office",
-    title: "Executive Studio & Meeting Lounge",
+    title: "Capsule LED Mirror & Floating Vanity",
     category: "Commercial",
     location: "Kirti Nagar Timber Block, New Delhi",
-    scope: "Commercial reception, conference partition, custom storage cabinets & spotlighting",
-    materials: ["Toughened Glass", "Veneer Cladding", "Charcoal Baffle Ceiling", "Durable Commercial Laminates"],
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop",
+    scope: "Bespoke powder room transformation with LED mirror, floating drawers & designer tiles",
+    materials: ["Capsule Backlit Mirror", "Custom Marine Ply Vanity", "Ceramic Basin", "Designer Mosaic Wall Tiles"],
+    image: "/projects/work-01.png",
     gallery: [
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1200&auto=format&fit=crop"
+      "/projects/work-01.png",
+      "/projects/work-03.png",
+      "/projects/work-23.png"
     ],
-    description: "A functional, distinguished commercial studio interior blending privacy, acoustic isolation, and crisp industrial-modern aesthetics for executive discussions."
+    description: "A functional, distinguished bathroom vanity combining double-cove capsule mirror lighting with moisture-proof cabinetry and artisan tile surfaces."
   }
 ];
 
 export const BUSINESS_INFO = {
-  name: "Harmeet Interior",
+  name: "Meet Interior",
   category: "Interior Design, Interior Contractor, Home Renovation",
   tagline: "Let's Build Your Dream Space Together.",
   heroHeadline: "Thoughtfully Designed. Beautifully Lived.",

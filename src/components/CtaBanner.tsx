@@ -11,13 +11,13 @@ interface CtaBannerProps {
 
 export default function CtaBanner({
   title = "Ready to Transform Your Living Space in Delhi?",
-  subtitle = "Schedule a complimentary site survey with Harmeet Interior. We measure your layout, discuss material options, and deliver clear indicative estimates.",
+  subtitle = "Schedule a complimentary site survey with Meet Interior. We measure your layout, discuss material options, and deliver clear indicative estimates.",
   serviceName,
 }: CtaBannerProps) {
   const whatsappUrl = `https://wa.me/919990327474?text=${encodeURIComponent(
     serviceName
-      ? `Hello Harmeet Interior, I would like to book a consultation for ${serviceName}. Please share next steps.`
-      : "Hello Harmeet Interior, I would like to schedule a free site consultation for my home renovation."
+      ? `Hello Meet Interior, I would like to book a consultation for ${serviceName}. Please share next steps.`
+      : "Hello Meet Interior, I would like to schedule a free site consultation for my home renovation."
   )}`;
 
   return (

@@ -7,8 +7,8 @@ import ProjectGallery from "@/components/ProjectGallery";
 import CtaBanner from "@/components/CtaBanner";
 
 export const metadata: Metadata = {
-  title: "Interior Projects Gallery | Harmeet Interior Delhi",
-  description: "Browse representative interior design and contracting projects by Harmeet Interior in Delhi NCR, featuring kitchens, wardrobes, living rooms, and ceilings.",
+  title: "Interior Projects Gallery | Meet Interior Delhi NCR",
+  description: "Browse representative interior design and contracting projects by Meet Interior in Delhi NCR, featuring kitchens, wardrobes, living rooms, and ceilings.",
 };
 
 export default function ProjectsPage() {
@@ -30,13 +30,26 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* 2. Authenticity Disclosure Note */}
+      {/* 2. Real Work Gallery Banner Callout */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="p-4 bg-slate-100 rounded-lg border border-slate-200 flex items-start gap-3 text-xs text-slate-600 max-w-4xl mx-auto">
-          <Info className="w-4 h-4 text-[#173D78] shrink-0 mt-0.5" />
-          <p className="leading-relaxed">
-            <strong className="text-slate-800">Portfolio Transparency Notice:</strong> The images showcased in this digital catalog serve as demonstrative representations of our design capabilities, architectural concepts, and craftsmanship finishes. To view exact ongoing site works or past project references in your Delhi locality, contact our team or visit our Kirti Nagar studio.
-          </p>
+        <div className="p-6 bg-gradient-to-r from-[#0B1D3A] to-[#173D78] text-white rounded-2xl border border-white/10 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="space-y-1.5 text-center md:text-left">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#E9C94A] block">
+              ⭐ New: Complete On-Site Photo Catalog
+            </span>
+            <h3 className="font-serif text-xl sm:text-2xl font-bold text-white">
+              Looking for 100% Real Site Photographs?
+            </h3>
+            <p className="text-xs text-slate-300 max-w-xl">
+              We have published 27 authentic uncropped photographs of our modular kitchens, custom beds, and wall panelling directly from Delhi sites.
+            </p>
+          </div>
+          <Link
+            href="/gallery"
+            className="px-6 py-3.5 bg-[#E9C94A] hover:bg-[#d8b839] text-[#0B1D3A] font-bold text-xs uppercase tracking-wider rounded-lg shadow-lg transition-transform active:scale-95 shrink-0"
+          >
+            Open 27 Real Works Gallery &rarr;
+          </Link>
         </div>
       </div>
 

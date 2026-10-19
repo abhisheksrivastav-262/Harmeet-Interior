@@ -72,7 +72,7 @@ export default function FaqPage() {
         },
         {
           q: "Who oversees the daily work on my site?",
-          a: "Harmeet Interior maintains direct contractor supervision. Our core team inspects the site daily, coordinates carpentry, plumbing, and electrical technicians, and maintains regular photo communication with the client."
+          a: "Meet Interior maintains direct contractor supervision. Our core team inspects the site daily, coordinates carpentry, plumbing, and electrical technicians, and maintains regular photo communication with the client."
         }
       ]
     }

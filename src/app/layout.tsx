@@ -18,13 +18,13 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://harmeetinterior.com"),
+  metadataBase: new URL("https://meetinterior.com"),
   title: {
-    default: "Harmeet Interior | Luxury Interior Design & Renovation Studio Delhi",
-    template: "%s | Harmeet Interior Delhi",
+    default: "Meet Interior | Luxury Interior Design & Renovation Studio Delhi NCR",
+    template: "%s | Meet Interior Delhi NCR",
   },
   description:
-    "Harmeet Interior offers bespoke luxury modular kitchens, custom wardrobes, false ceilings, and turnkey home renovation solutions in Kirti Nagar and across Delhi NCR.",
+    "Meet Interior offers bespoke luxury modular kitchens, custom wardrobes, false ceilings, and turnkey home renovation solutions in Kirti Nagar and across Delhi NCR.",
   keywords: [
     "Interior designer in Delhi",
     "Interior contractor in Kirti Nagar",
@@ -32,25 +32,26 @@ export const metadata: Metadata = {
     "Wardrobe design in Delhi",
     "False ceiling contractor in Delhi",
     "Home interior renovation in Delhi",
-    "Harmeet Interior",
+    "Meet Interior",
+    "Meet Interior Delhi NCR",
     "Turnkey interior contractor Delhi",
   ],
-  authors: [{ name: "Harmeet Interior" }],
-  creator: "Harmeet Interior",
+  authors: [{ name: "Meet Interior" }],
+  creator: "Meet Interior",
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://harmeetinterior.com",
-    siteName: "Harmeet Interior",
-    title: "Harmeet Interior | Luxury Interior Design & Renovation Studio Delhi",
+    url: "https://meetinterior.com",
+    siteName: "Meet Interior",
+    title: "Meet Interior | Luxury Interior Design & Renovation Studio Delhi NCR",
     description:
       "Crafting bespoke luxury residential and commercial spaces across Delhi NCR. Modular kitchens, custom wardrobes, false ceilings, and turnkey interior contracting.",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop",
+        url: "/projects/work-14.png",
         width: 1200,
         height: 630,
-        alt: "Harmeet Interior Luxury Delhi Living Spaces",
+        alt: "Meet Interior Luxury Living Spaces",
       },
     ],
   },
@@ -68,7 +69,7 @@ export default function RootLayout({
   const localBusinessJsonLd = {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
-    "name": "Harmeet Interior",
+    "name": "Meet Interior",
     "description": "Interior design, modular carpentry, false ceiling, and turnkey home renovation contractor serving Delhi NCR.",
     "telephone": "+919990327474",
     "email": "harmeet.singh8311@gmail.com",

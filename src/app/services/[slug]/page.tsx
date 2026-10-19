@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!service) return { title: "Service Not Found" };
 
   return {
-    title: `${service.title} in Delhi | Harmeet Interior`,
+    title: `${service.title} in Delhi | Meet Interior`,
     description: `${service.title} in Delhi NCR. ${service.tagline}. Starting price details, materials, and consultation.`,
   };
 }
@@ -103,7 +103,7 @@ export default async function ServiceDetailPage({ params }: Props) {
               <div className="relative h-72 sm:h-96 w-full rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-slate-900">
                 <Image
                   src={service.image}
-                  alt={`${service.title} in Delhi by Harmeet Interior`}
+                  alt={`${service.title} in Delhi by Meet Interior`}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 40vw"
@@ -194,7 +194,7 @@ export default async function ServiceDetailPage({ params }: Props) {
               <div className="bg-[#0B1D3A] text-white p-6 rounded-xl border border-white/10 space-y-4">
                 <h4 className="font-serif text-base font-bold text-white flex items-center gap-2">
                   <ShieldCheck className="w-5 h-5 text-[#E9C94A]" />
-                  <span>The Harmeet Interior Promise</span>
+                  <span>The Meet Interior Promise</span>
                 </h4>
                 <p className="text-xs text-slate-300 leading-relaxed">
                   Every order is executed under direct supervision from our Kirti Nagar workshop. We supply genuine branded materials with zero unapproved substitutions.

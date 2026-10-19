@@ -5,8 +5,8 @@ import { ShieldCheck, Lock, Eye, FileText } from "lucide-react";
 import { BUSINESS_INFO } from "@/data/siteData";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Harmeet Interior Delhi",
-  description: "Privacy policy for Harmeet Interior. Explains how client contact information and project requirements are handled with strict confidentiality.",
+  title: "Privacy Policy | Meet Interior Delhi NCR",
+  description: "Privacy policy for Meet Interior. Explains how client contact information and project requirements are handled with strict confidentiality.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
             Privacy Policy
           </h1>
           <p className="text-xs sm:text-sm text-slate-300">
-            Last Updated: October 2026 &bull; Harmeet Interior, Kirti Nagar, New Delhi
+            Last Updated: October 2026 &bull; Meet Interior, Kirti Nagar, New Delhi
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function PrivacyPolicyPage() {
           <section className="space-y-3">
             <h2 className="font-serif text-xl font-bold text-[#0B1D3A]">1. Overview</h2>
             <p>
-              Harmeet Interior (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) operates from A-52, W.H.-5, Timber Block, Kirti Nagar, New Delhi. We are committed to protecting the privacy of individuals who interact with our website, request consultations, or submit property inquiry details.
+              Meet Interior (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) operates from A-52, W.H.-5, Timber Block, Kirti Nagar, New Delhi. We are committed to protecting the privacy of individuals who interact with our website, request consultations, or submit property inquiry details.
             </p>
           </section>
 

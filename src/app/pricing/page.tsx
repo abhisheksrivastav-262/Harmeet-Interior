@@ -15,8 +15,8 @@ import { BUSINESS_INFO } from "@/data/siteData";
 import CtaBanner from "@/components/CtaBanner";
 
 export const metadata: Metadata = {
-  title: "Interior Design Starting Prices Delhi | Harmeet Interior",
-  description: "Transparent indicative starting prices for Harmeet Interior in Delhi: Modular kitchens starting at ₹1,199/sq.ft, wardrobes at ₹1,099/sq.ft, false ceilings at ₹100/sq.ft.",
+  title: "Interior Design Starting Prices Delhi | Meet Interior",
+  description: "Transparent indicative starting prices for Meet Interior in Delhi: Modular kitchens starting at ₹1,199/sq.ft, wardrobes at ₹1,099/sq.ft, false ceilings at ₹100/sq.ft.",
 };
 
 export default function PricingPage() {
@@ -34,7 +34,7 @@ export default function PricingPage() {
         "Custom cutlery and basic wire basket organizers",
         "Precision chimney ducting and ventilation planning"
       ],
-      whatsappMsg: "Hello Harmeet Interior, I want an indicative estimate for a modular kitchen starting at ₹1,199/sq.ft."
+      whatsappMsg: "Hello Meet Interior, I want an indicative estimate for a modular kitchen starting at ₹1,199/sq.ft."
     },
     {
       title: "Wardrobes & Almirahs",
@@ -49,7 +49,7 @@ export default function PricingPage() {
         "Dedicated hanger rails, deep drawers, and shelving",
         "Integrated lock provisions for personal security"
       ],
-      whatsappMsg: "Hello Harmeet Interior, I want an indicative estimate for custom wardrobes starting at ₹1,099/sq.ft."
+      whatsappMsg: "Hello Meet Interior, I want an indicative estimate for custom wardrobes starting at ₹1,099/sq.ft."
     },
     {
       title: "False Ceiling Designs",
@@ -64,7 +64,7 @@ export default function PricingPage() {
         "Pre-cut openings for spotlights and linear profiles",
         "Smooth taped jointing ready for primer and emulsion"
       ],
-      whatsappMsg: "Hello Harmeet Interior, I want an indicative estimate for false ceilings starting at ₹100/sq.ft."
+      whatsappMsg: "Hello Meet Interior, I want an indicative estimate for false ceilings starting at ₹100/sq.ft."
     }
   ];
 
@@ -74,7 +74,7 @@ export default function PricingPage() {
       a: "Interior work is completely bespoke. The final cost of any modular kitchen or wardrobe depends on dimensions, site dampness, structural conditions, shutter finishes (Laminate vs. Acrylic vs. PU lacquer), and hardware grade (Standard vs. Soft-close vs. Imported German fittings)."
     },
     {
-      q: "Does Harmeet Interior charge for site measurement in Delhi?",
+      q: "Does Meet Interior charge for site measurement in Delhi?",
       a: "No. We provide an initial site visit and architectural measurement survey in Delhi NCR to inspect your room dimensions and understand your exact requirements before submitting a detailed line-item bill of quantities."
     },
     {

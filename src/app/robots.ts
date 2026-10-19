@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://harmeetinterior.com/sitemap.xml",
+    sitemap: "https://meetinterior.com/sitemap.xml",
   };
 }

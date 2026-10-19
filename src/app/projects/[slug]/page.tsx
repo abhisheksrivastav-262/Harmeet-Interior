@@ -33,8 +33,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!project) return { title: "Project Not Found" };
 
   return {
-    title: `${project.title} | Harmeet Interior Delhi`,
-    description: `${project.title} - ${project.scope} located in ${project.location}. Materials and design execution details by Harmeet Interior.`,
+    title: `${project.title} | Meet Interior Delhi NCR`,
+    description: `${project.title} - ${project.scope} located in ${project.location}. Materials and design execution details by Meet Interior.`,
   };
 }
 
@@ -47,7 +47,7 @@ export default async function ProjectDetailPage({ params }: Props) {
   }
 
   const whatsappInquiryUrl = `https://wa.me/919990327474?text=${encodeURIComponent(
-    `Hello Harmeet Interior, I saw the project "${project.title}" on your website and would like similar interior work for my home in Delhi.`
+    `Hello Meet Interior, I saw the project "${project.title}" on your website and would like similar interior work for my home in Delhi NCR.`
   )}`;
 
   return (

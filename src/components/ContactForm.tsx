@@ -83,7 +83,7 @@ export default function ContactForm({ defaultService }: ContactFormProps) {
   };
 
   const getWhatsAppHandoffUrl = (data: typeof formData) => {
-    const text = `*New Interior Enquiry - Harmeet Interior Website*\n\n` +
+    const text = `*New Interior Enquiry - Meet Interior Website*\n\n` +
       `*Name:* ${data.name}\n` +
       `*Phone:* ${data.phone}\n` +
       `*Service Required:* ${data.service}\n` +

@@ -6,7 +6,7 @@ import { BUSINESS_INFO } from "@/data/siteData";
 
 export default function FloatingActions() {
   const defaultWhatsAppText = encodeURIComponent(
-    "Hello Harmeet Interior, I would like to enquire about interior design services for my space."
+    "Hello Meet Interior, I would like to enquire about interior design services for my space."
   );
 
   return (
@@ -17,7 +17,7 @@ export default function FloatingActions() {
         <a
           href="tel:+919990327474"
           className="group flex items-center justify-end"
-          aria-label="Call Harmeet Interior"
+          aria-label="Call Meet Interior"
         >
           <span className="mr-3 px-3 py-1.5 bg-[#0B1D3A] text-white text-xs font-semibold rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 border border-white/10 whitespace-nowrap">
             Call +91 9990327474
