@@ -255,245 +255,114 @@ export const REAL_WORK_GALLERY: GalleryItem[] = [
 
   {
     id: "work-28",
-    title: "Additional Work 1",
+    title: "Luxury Interior Installation – Delhi NCR",
     category: "Living & Walls",
-    image: "/image.png",
+    image: "/projects/work-28.jpg",
     dimensions: "auto",
     aspect: "landscape",
-    description: "Additional portfolio image."
+    description: "Completed interior installation showcasing premium finishes and craftsmanship."
   },
   {
     id: "work-29",
-    title: "Additional Work 2",
-    category: "Living & Walls",
-    image: "/image copy.png",
+    title: "Bespoke Interior Woodwork & Finishes",
+    category: "Commercial & Carpentry",
+    image: "/projects/work-29.jpg",
     dimensions: "auto",
     aspect: "landscape",
-    description: "Additional portfolio image."
+    description: "Custom carpentry and interior woodwork executed with precision at client site."
   },
   {
     id: "work-30",
-    title: "Additional Work 3",
-    category: "Living & Walls",
-    image: "/image copy 2.png",
+    title: "Modular Interior Setup – On-Site Execution",
+    category: "Kitchens",
+    image: "/projects/work-30.jpg",
     dimensions: "auto",
     aspect: "landscape",
-    description: "Additional portfolio image."
+    description: "Turnkey modular interior work delivered at Delhi NCR residential project."
   },
   {
     id: "work-31",
-    title: "Additional Work 4",
-    category: "Living & Walls",
-    image: "/image copy 3.png",
+    title: "Premium Wardrobe & Storage Solution",
+    category: "Wardrobes",
+    image: "/projects/work-31.jpg",
     dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
+    aspect: "portrait",
+    description: "Custom floor-to-ceiling wardrobe with superior finish and hardware."
   },
   {
     id: "work-32",
-    title: "Additional Work 5",
-    category: "Living & Walls",
-    image: "/image copy 4.png",
+    title: "Designer Bedroom Interior – Complete Setup",
+    category: "Bedrooms",
+    image: "/projects/work-32.jpg",
     dimensions: "auto",
     aspect: "landscape",
-    description: "Additional portfolio image."
+    description: "Full bedroom interior with upholstered headboard, wardrobes, and panelling."
   },
   {
     id: "work-33",
-    title: "Additional Work 6",
-    category: "Living & Walls",
-    image: "/image copy 5.png",
+    title: "Contemporary Kitchen & Interior Works",
+    category: "Kitchens",
+    image: "/projects/work-33.jpg",
     dimensions: "auto",
     aspect: "landscape",
-    description: "Additional portfolio image."
+    description: "Modern modular kitchen with integrated appliances and custom cabinetry."
   },
   {
     id: "work-34",
-    title: "Additional Work 7",
+    title: "Accent Wall & Living Space Design",
     category: "Living & Walls",
-    image: "/image copy 6.png",
+    image: "/projects/work-34.jpg",
     dimensions: "auto",
     aspect: "landscape",
-    description: "Additional portfolio image."
+    description: "Designer feature wall with wallpanelling and living area interior complete."
   },
   {
     id: "work-35",
-    title: "Additional Work 8",
-    category: "Living & Walls",
-    image: "/image copy 7.png",
+    title: "Bathroom Vanity & Tile Work",
+    category: "Vanities & Baths",
+    image: "/projects/work-35.jpg",
     dimensions: "auto",
     aspect: "landscape",
-    description: "Additional portfolio image."
+    description: "Complete bathroom renovation with premium vanity, tiles, and fittings."
+  }
+];
+
+// Video data for video slider section
+export interface VideoItem {
+  src: string;
+  title: string;
+  subtitle: string;
+}
+
+export const SITE_VIDEOS: VideoItem[] = [
+  {
+    src: "/videos/video-01.mp4",
+    title: "Luxury Interior Execution – Meet Interior",
+    subtitle: "Kirti Nagar Studio • Delhi NCR"
   },
   {
-    id: "work-36",
-    title: "Additional Work 9",
-    category: "Living & Walls",
-    image: "/image copy 8.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
+    src: "/videos/video-02.mp4",
+    title: "Modular Kitchen Installation Tour",
+    subtitle: "On-Site Walkthrough • Delhi NCR"
   },
   {
-    id: "work-37",
-    title: "Additional Work 10",
-    category: "Living & Walls",
-    image: "/image copy 9.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
+    src: "/videos/video-03.mp4",
+    title: "Bespoke Wardrobe & Bedroom Setup",
+    subtitle: "Premium Craftsmanship • Delhi NCR"
   },
   {
-    id: "work-38",
-    title: "Additional Work 11",
-    category: "Living & Walls",
-    image: "/image copy 10.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
+    src: "/videos/video-04.mp4",
+    title: "Complete Turnkey Home Interior",
+    subtitle: "Full Renovation Showcase • Delhi NCR"
   },
   {
-    id: "work-39",
-    title: "Additional Work 12",
-    category: "Living & Walls",
-    image: "/image copy 11.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
+    src: "/videos/video-05.mp4",
+    title: "Designer False Ceiling & Lighting",
+    subtitle: "Architectural Detailing • Delhi NCR"
   },
   {
-    id: "work-40",
-    title: "Additional Work 13",
-    category: "Living & Walls",
-    image: "/image copy 12.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-41",
-    title: "Additional Work 14",
-    category: "Living & Walls",
-    image: "/image copy 13.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-42",
-    title: "Additional Work 15",
-    category: "Living & Walls",
-    image: "/image copy 14.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-43",
-    title: "Additional Work 16",
-    category: "Living & Walls",
-    image: "/image copy 15.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-44",
-    title: "Additional Work 17",
-    category: "Living & Walls",
-    image: "/image copy 16.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-45",
-    title: "Additional Work 18",
-    category: "Living & Walls",
-    image: "/image copy 17.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-46",
-    title: "Additional Work 19",
-    category: "Living & Walls",
-    image: "/image copy 18.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-47",
-    title: "Additional Work 20",
-    category: "Living & Walls",
-    image: "/image copy 19.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-48",
-    title: "Additional Work 21",
-    category: "Living & Walls",
-    image: "/image copy 20.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-49",
-    title: "Additional Work 22",
-    category: "Living & Walls",
-    image: "/image copy 21.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-50",
-    title: "Additional Work 23",
-    category: "Living & Walls",
-    image: "/image copy 22.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-51",
-    title: "Additional Work 24",
-    category: "Living & Walls",
-    image: "/image copy 23.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-52",
-    title: "Additional Work 25",
-    category: "Living & Walls",
-    image: "/image copy 24.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-53",
-    title: "Additional Work 26",
-    category: "Living & Walls",
-    image: "/image copy 25.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
-  },
-  {
-    id: "work-54",
-    title: "Additional Work 27",
-    category: "Living & Walls",
-    image: "/image copy 26.png",
-    dimensions: "auto",
-    aspect: "landscape",
-    description: "Additional portfolio image."
+    src: "/videos/video-06.mp4",
+    title: "Accent Walls & Living Room Interiors",
+    subtitle: "Contemporary Design • Delhi NCR"
   }
 ];

@@ -52,28 +52,31 @@ export default function ProjectGallery({ projects, showFilter = true }: ProjectG
             <div>
               {/* Image Preview with click to lightbox */}
               <div 
-                className="relative h-64 w-full overflow-hidden bg-slate-900 cursor-pointer"
+                className="relative w-full overflow-hidden bg-white cursor-pointer"
                 onClick={() => setLightboxProject(project)}
               >
                 <Image
                   src={project.image}
                   alt={`${project.title} - Interior design by Meet Interior`}
-                  fill
+                  width={0}
+                  height={0}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  style={{ width: '100%', height: 'auto', display: 'block' }}
+                  className="group-hover:scale-[1.02] transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0B1D3A]/85 via-black/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0B1D3A]/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
 
                 <div className="absolute top-3.5 left-3.5 bg-white/90 backdrop-blur-sm text-[#0B1D3A] px-2.5 py-1 rounded text-[11px] font-bold uppercase tracking-wider">
                   {project.category}
                 </div>
 
-                <div className="absolute bottom-3.5 left-3.5 right-3.5 text-white">
+                <div className="absolute bottom-3.5 left-3.5 right-3.5 text-white opacity-0 group-hover:opacity-100 transition-opacity">
                   <span className="text-[10px] text-amber-300 font-medium block">
                     Click to enlarge preview
                   </span>
                 </div>
               </div>
+
 
               {/* Information */}
               <div className="p-6">
@@ -143,13 +146,15 @@ export default function ProjectGallery({ projects, showFilter = true }: ProjectG
               <X className="w-5 h-5" />
             </button>
 
-            <div className="relative h-72 sm:h-96 w-full rounded-lg overflow-hidden mb-6 bg-slate-900">
+            <div className="w-full rounded-lg overflow-hidden mb-6 bg-slate-900">
               <Image
                 src={lightboxProject.image}
                 alt={lightboxProject.title}
-                fill
+                width={0}
+                height={0}
                 sizes="(max-width: 896px) 100vw, 896px"
-                className="object-cover"
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+                className="rounded-lg"
               />
             </div>
 

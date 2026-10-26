@@ -12,13 +12,16 @@ import {
   Clock, 
   MessageSquare,
   HelpCircle,
-  Tag
+  Tag,
+  Video
 } from "lucide-react";
 import { SERVICES, PROJECTS, BUSINESS_INFO } from "@/data/siteData";
+import { SITE_VIDEOS } from "@/data/galleryData";
 import ServiceCard from "@/components/ServiceCard";
 import ProjectGallery from "@/components/ProjectGallery";
 import CtaBanner from "@/components/CtaBanner";
 import ContactForm from "@/components/ContactForm";
+import VideoSlider from "@/components/VideoSlider";
 
 export default function HomePage() {
   const processSteps = [
@@ -355,13 +358,43 @@ export default function HomePage() {
               href="/gallery"
               className="px-6 py-3 bg-[#E9C94A] hover:bg-[#d8b839] text-[#0B1D3A] font-bold text-xs uppercase tracking-wider rounded-lg shadow-md transition-all flex items-center gap-2"
             >
-              <span>Explore All 27 Works Gallery</span>
+              <span>Explore All 35 Works Gallery</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
         </div>
 
         <ProjectGallery projects={PROJECTS.slice(0, 6)} showFilter={false} />
+      </section>
+
+      {/* 4.5 VIDEO SHOWCASE SECTION */}
+      <section className="bg-[#0B1D3A] py-16 sm:py-20 border-y border-white/10">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10 space-y-3">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 text-[#E9C94A] text-xs font-semibold uppercase tracking-widest border border-white/15">
+              <Video className="w-3.5 h-3.5" />
+              <span>On-Site Execution Videos &bull; Delhi NCR</span>
+            </div>
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+              Watch Our Projects Come to Life
+            </h2>
+            <p className="text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
+              Real video walkthroughs of our completed modular kitchens, custom wardrobes, false ceilings, and full-home renovations across Delhi NCR.
+            </p>
+          </div>
+
+          <VideoSlider videos={SITE_VIDEOS} />
+
+          <div className="text-center mt-8">
+            <Link
+              href="/gallery"
+              className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#E9C94A] hover:bg-[#d8b839] text-[#0B1D3A] font-bold text-xs uppercase tracking-wider rounded-lg shadow-xl transition-all"
+            >
+              <span>View Full Gallery &amp; More Videos</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
       </section>
 
       {/* 5. 5-STEP DESIGN & EXECUTION PROCESS */}

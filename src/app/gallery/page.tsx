@@ -11,10 +11,13 @@ import {
   ArrowRight, 
   Maximize2,
   CheckCircle2,
-  Filter
+  Filter,
+  Video
 } from "lucide-react";
-import { REAL_WORK_GALLERY, GalleryItem } from "@/data/galleryData";
+import { REAL_WORK_GALLERY, GalleryItem, SITE_VIDEOS } from "@/data/galleryData";
 import CtaBanner from "@/components/CtaBanner";
+import VideoSlider from "@/components/VideoSlider";
+
 
 export default function GalleryPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
@@ -100,22 +103,23 @@ export default function GalleryPage() {
         </div>
 
         {/* 3. Masonry / Fluid Responsive Photo Grid (Full Uncut Images) */}
-        <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6 pt-8">
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-5 pt-8">
           {filteredItems.map((item) => (
             <div
               key={item.id}
-              className="group break-inside-avoid bg-white rounded-xl overflow-hidden border border-slate-200 luxury-card-shadow luxury-card-hover transition-all duration-300 flex flex-col cursor-pointer"
+              className="group break-inside-avoid mb-5 bg-white rounded-xl overflow-hidden border border-slate-200 luxury-card-shadow luxury-card-hover transition-all duration-300 flex flex-col cursor-pointer"
               onClick={() => setLightboxItem(item)}
             >
-              {/* Image Container - Using natural image aspect ratio so NO CUTTING occurs */}
-              <div className="relative w-full overflow-hidden bg-slate-900">
+              {/* Image Container — natural aspect ratio, ZERO cropping */}
+              <div className="relative w-full bg-white">
                 <Image
                   src={item.image}
                   alt={item.title}
-                  width={800}
-                  height={1000}
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-                  className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-102"
+                  width={0}
+                  height={0}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  style={{ width: '100%', height: 'auto', display: 'block' }}
+                  className="transition-transform duration-500 group-hover:scale-[1.02]"
                 />
                 
                 {/* Overlay hover badge */}
@@ -184,14 +188,15 @@ export default function GalleryPage() {
             </button>
 
             {/* Uncropped Full Image Container */}
-            <div className="relative w-full flex items-center justify-center bg-black/60 rounded-xl overflow-hidden mb-5 p-2 max-h-[65vh]">
+            <div className="w-full bg-black/40 rounded-xl overflow-hidden mb-5">
               <Image
                 src={lightboxItem.image}
                 alt={lightboxItem.title}
-                width={1200}
-                height={1600}
+                width={0}
+                height={0}
                 sizes="(max-width: 1024px) 100vw, 896px"
-                className="max-h-[62vh] w-auto max-w-full object-contain mx-auto rounded-lg"
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+                className="rounded-xl"
               />
             </div>
 
@@ -240,7 +245,34 @@ export default function GalleryPage() {
         </div>
       )}
 
-      {/* 5. Bottom Consultation Banner */}
+      {/* 5. Video Showcase Section */}
+      <section className="bg-[#0B1D3A] py-16 sm:py-20 border-t border-white/10">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="text-center mb-10 space-y-3">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 text-[#E9C94A] text-xs font-semibold uppercase tracking-widest border border-white/15">
+              <Video className="w-3.5 h-3.5" />
+              <span>Site Execution Videos • 6 Real Projects</span>
+            </div>
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
+              Watch Our Work in Action
+            </h2>
+            <p className="text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
+              Authentic on-site video walkthroughs of our completed modular kitchens, wardrobes, false ceilings, and full turnkey interiors across Delhi NCR.
+            </p>
+          </div>
+
+          {/* Video Slider */}
+          <VideoSlider videos={SITE_VIDEOS} />
+
+          {/* Note */}
+          <p className="text-center text-xs text-slate-400 mt-6">
+            📍 All projects executed at client homes in Delhi NCR &bull; Kirti Nagar Studio
+          </p>
+        </div>
+      </section>
+
+      {/* 6. Bottom Consultation Banner */}
       <CtaBanner serviceName="Custom Interior Project" />
     </div>
   );
